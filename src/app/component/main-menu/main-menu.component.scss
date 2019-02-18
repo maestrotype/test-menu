@@ -1,0 +1,55 @@
+.main-menu {
+  width: 200px;
+  padding: 54px 12px;
+  height: 100%;
+  background-color: #1b2432;
+  position: relative;
+  transition-duration: 0.4s;
+}
+
+.main-menu span{
+  transition-duration: 0.4s;
+}
+.collapsed-menu {
+  background-color: #8d9299;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.collapsed-menu i {
+  font-size: 20px;
+  transition-duration: 1s;
+}
+
+.rotate_icon {
+  transform: rotateY(180deg);
+}
+
+.close_menu {
+  width: 50px;
+  span {
+    opacity: 0;
+    font-size: 0;
+  }
+}
+.main-menu li {
+  margin-bottom: 7px;
+  height: 25px;
+}
+.main-menu li a {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.main-menu li a i {
+  font-size: 20px;
+}
+
